@@ -1,0 +1,16 @@
+export { default as Navigation } from "./Navigation";
+export { default as Hero } from "./Hero";
+export { default as About } from "./About";
+export { default as Services } from "./Services";
+export { default as HowItWorks } from "./HowItWorks";
+export { default as WhyChooseUs } from "./WhyChooseUs";
+export { default as ComparisonTable } from "./whyus";
+export { default as ImpactMetrics } from "./ImpactMetrics";
+export { default as Team } from "./Team";
+export { default as FAQ } from "./FAQ";
+export { default as Contact } from "./Contact";
+export { default as Footer } from "./Footer";
+export { default as PrivacyPolicy } from "./PrivacyPolicy";
+export { default as TermsAndConditions } from "./TermsAndConditions";
+export { default as CookiePolicy } from "./CookiePolicy";
+export { default as GDPRCompliance } from "./GDPRCompliance";

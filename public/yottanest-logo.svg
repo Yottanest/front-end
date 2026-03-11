@@ -1,0 +1,33 @@
+<svg width="1400" height="200" viewBox="0 0 1400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Square background with rounded corners -->
+  <rect x="10" y="10" width="180" height="180" rx="20" fill="#3F3F3F"/>
+
+  <!-- Hexagonal camera shutter icon -->
+  <g transform="translate(100, 100)">
+    <!-- Outer hexagon -->
+    <path d="M 0,-50 L 43.3,-25 L 43.3,25 L 0,50 L -43.3,25 L -43.3,-25 Z"
+          fill="none" stroke="#FCF7EE" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Inner circle -->
+    <circle cx="0" cy="0" r="13" fill="none" stroke="#FCF7EE" stroke-width="3"/>
+
+    <!-- Shutter blades (6 segments forming aperture) -->
+    <g fill="none" stroke="#FCF7EE" stroke-width="2.5">
+      <!-- Top blade -->
+      <path d="M -8,-13 L -18,-30 L 0,-45 L 18,-30 L 8,-13"/>
+      <!-- Top right blade -->
+      <path d="M 8,-13 L 11,-7 L 42,-18 L 40,-38 L 18,-30"/>
+      <!-- Bottom right blade -->
+      <path d="M 11,7 L 8,13 L 18,30 L 40,38 L 42,18"/>
+      <!-- Bottom blade -->
+      <path d="M 8,13 L 18,30 L 0,45 L -18,30 L -8,13"/>
+      <!-- Bottom left blade -->
+      <path d="M -8,13 L -11,7 L -42,18 L -40,38 L -18,30"/>
+      <!-- Top left blade -->
+      <path d="M -11,-7 L -8,-13 L -18,-30 L -40,-38 L -42,-18"/>
+    </g>
+  </g>
+
+  <!-- Text: yottanest -->
+  <text x="220" y="135" font-family="system-ui, -apple-system, sans-serif" font-size="95" font-weight="700" fill="#3F3F3F" letter-spacing="-3">yottanest</text>
+</svg>
