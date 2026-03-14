@@ -152,33 +152,6 @@ export default function FAQ() {
             </div>
           ))}
         </div>
-
-        {/* Still Have Questions */}
-        <div
-          className={`mt-12 text-center reveal ${faqVisible ? "visible" : ""}`}
-          style={{ transitionDelay: "400ms" }}
-        >
-          <p className="text-graphite mb-4">Still have questions?</p>
-          <a
-            href="#contact"
-            className="btn-primary inline-flex"
-          >
-            Get in Touch
-            <svg
-              className="w-4 h-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
-            </svg>
-          </a>
-        </div>
       </div>
     </section>
   );

@@ -9,7 +9,7 @@ const steps = [
     description:
       "Our AI agents collect data from across Europe — government registries, corporate databases, open web sources, and your internal documents. No manual searching. No copy-pasting. No barriers.",
     sources: [
-      "EU Corporate Registries (FR, DE, IT, NL)",
+      "EU Corporate Registries",
       "Government & Official Databases",
       "Open Web Intelligence",
       "Internal Documents (PDFs, Contracts)",
@@ -189,14 +189,14 @@ export default function HowItWorks() {
               <div className="flex items-center justify-center gap-3 mb-4">
                 <span className="text-3xl">⚡</span>
                 <span className="text-2xl lg:text-3xl font-bold text-white">
-                  Workflow reduced by 60%
+                  Workflow reduced by 90%
                 </span>
               </div>
               <blockquote className="text-lg lg:text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
                 &ldquo;The AI doesn&apos;t decide — it recommends. We use a
                 Human-in-the-Loop model. The analyst still clicks the final
                 button. We just get them there{" "}
-                <span className="text-white font-semibold">60% faster</span>.&rdquo;
+                <span className="text-white font-semibold">90% faster</span>.&rdquo;
               </blockquote>
             </div>
           </div>

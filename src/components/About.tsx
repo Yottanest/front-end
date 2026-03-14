@@ -112,7 +112,7 @@ export default function About() {
           </h2>
           <div className="w-14 h-1 bg-gradient-to-r from-royal-blue to-sky mx-auto mb-4" />
           <p className="text-base lg:text-lg text-slate max-w-xl mx-auto">
-            Building the Future of Trust, Automation, and Intelligence in Banking
+            Engineering the Architecture of Trust: Autonomous Intelligence for Complex Entity Resolution.
           </p>
         </div>
 
@@ -127,31 +127,34 @@ export default function About() {
               className="text-xl lg:text-2xl font-semibold text-obsidian mb-5"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              We Saw a Broken System. We Built the Fix.
+              We Saw a Complexity Wall. We Engineered the Breakthrough.
             </h3>
 
-            <div className="space-y-4 text-graphite leading-relaxed text-[15px]">
+            <div className="space-y-6 text-graphite leading-relaxed text-[15px]">
               <p>
-                Founded in Bulgaria in 2025, YottaNest emerged from a simple observation:
-                compliance teams were drowning in paperwork — not risk. Skilled analysts
-                spent 90% of their time on data gathering and document formatting, leaving
-                just 10% for{" "}
-                <span className="font-semibold text-obsidian">actual decision-making</span>.
+                Founded in Bulgaria in 2025, YottaNest emerged at the intersection of a global regulatory
+                &ldquo;tsunami&rdquo; and a critical inflection point in AI maturity. We recognized a fundamental failure
+                in how organizations verify the world around them: while business entities have become global
+                and layered, the workflows used to vet them remained trapped in a 20th-century
+                &ldquo;scavenger hunt&rdquo; for data.
               </p>
 
               <p>
                 Our answer:{" "}
                 <span className="font-semibold text-royal-blue">
-                  AI agents that don&apos;t just search — they act
-                </span>
-                . They gather intelligence from EU registries, analyze business viability,
-                draft reports, and deliver what compliance officers actually need:
-                a decision, not a data dump.
+                  Agentic Knowledge Extraction (AKE).
+                </span>{" "}
+                Our engine deploys autonomous AI agents that don&apos;t just search—they reason.
+                By navigating jurisdictional nuances and resolving contradictions through
+                <span className="italic"> autonomous critic loops</span>, we transform fragmented
+                information into <span className="font-semibold text-obsidian">verified, auditable intelligence</span>.
               </p>
 
               <p>
-                Today, we help forward-thinking banks cut compliance costs by 90%
-                while building stronger regulatory confidence.
+                Today, we help forward-thinking organizations turn the &ldquo;Complexity Wall&rdquo; into a
+                competitive advantage. By providing a transparent
+                <span className="font-semibold text-obsidian"> Chain of Thought audit trail</span>,
+                YottaNest accelerates speed-to-revenue while building unshakeable regulatory confidence.
               </p>
             </div>
           </div>
@@ -201,8 +204,9 @@ export default function About() {
             </h4>
             <blockquote className="text-lg lg:text-xl text-graphite leading-relaxed max-w-3xl mx-auto">
               <span className="text-3xl text-royal-blue/30 font-serif">&ldquo;</span>
-              To empower Risk Teams with Fast Insights, Broad Coverage, and Solid Evidence —
-              transforming raw data into actionable reports that drive smart decisions.
+              To bridge the Complexity Wall by empowering Risk Teams with
+              autonomous reasoning and deep traceability—transforming fragmented data into
+              definitive, regulator-ready intelligence that accelerates growth..
               <span className="text-3xl text-royal-blue/30 font-serif">&rdquo;</span>
             </blockquote>
           </div>

@@ -186,13 +186,6 @@ export default function Contact() {
                 </div>
                 <span>Sofia, Bulgaria</span>
               </div>
-
-              <div className="flex items-center gap-3 text-graphite">
-                <div className="w-10 h-10 rounded-lg bg-ice-blue flex items-center justify-center">
-                  <span className="text-lg">🇪🇺</span>
-                </div>
-                <span>Serving European Banking</span>
-              </div>
             </div>
           </div>
 

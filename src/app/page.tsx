@@ -6,8 +6,6 @@ import {
   About,
   Services,
   HowItWorks,
-  WhyChooseUs,
-  ImpactMetrics,
   Team,
   ComparisonTable,
   FAQ,
@@ -26,13 +24,13 @@ export default function Home() {
     <main className="overflow-hidden">
       <Navigation />
       <Hero />
-      <About />
       <Services />
       <HowItWorks />
-      <WhyChooseUs />
-      <ImpactMetrics />
+      <About />
+      {/* <WhyChooseUs /> */}
+      {/* <ImpactMetrics /> */}
       <Team />
-      <ComparisonTable />
+      {/* <ComparisonTable /> */}
       <FAQ />
       <Contact />
       <Footer />

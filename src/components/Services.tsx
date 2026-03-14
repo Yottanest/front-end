@@ -22,9 +22,9 @@ const services = [
     title: "NetReport Engine",
     subtitle: '"The Hunter" — External Intelligence',
     description:
-      "Automated intelligence gathering that scrapes the \"Hard 4\" EU registries and open web to validate business viability — not just identity. Our AI agents bypass barriers, analyze data, and auto-draft Risk Memos and Suspicious Activity Reports.",
+      "Automated intelligence gathering that scrapes the EU registries and open web to validate business viability — not just identity. Our AI agents bypass barriers, analyze data, and auto-draft Risk Memos and Suspicious Activity Reports.",
     capabilities: [
-      "Scrapes EU registries (France, Germany, Italy, Netherlands) + open web",
+      "Scrapes EU registries + open web",
       "Validates business viability and economic legitimacy",
       "Recursively maps Ultimate Beneficial Owners (UBOs)",
       "Detects hidden sanctions connections",

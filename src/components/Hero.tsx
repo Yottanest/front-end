@@ -85,7 +85,7 @@ export default function Hero() {
               style={{ transitionDelay: "200ms" }}
             >
               <span className="text-lg">🚀</span>
-              The Future of Banking Compliance
+              The Autonomous Execution Layer for Business Verification
             </div>
 
             {/* Main Headline */}
@@ -100,9 +100,9 @@ export default function Hero() {
                 transitionDelay: "400ms",
               }}
             >
-              AI-Powered Compliance & Credit Decisions for{" "}
+              Engineering an Agentic Knowledge Extraction and Synthesis Engine{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-royal-blue via-azure to-sky">
-                Modern Banking
+                to automate complex entity due diligence and risk assessment.
               </span>
             </h1>
 
@@ -115,14 +115,15 @@ export default function Hero() {
               }`}
               style={{ transitionDelay: "600ms" }}
             >
-              YottaNest transforms KYC/AML compliance and credit evaluation with
-              intelligent automation. We don&apos;t just search for data — our AI
-              agents act, analyze, and deliver decision-ready reports in
-              minutes.{" "}
+              YottaNest provides the intelligent architecture for high-stakes investigative
+              workflows. While our engine excels in the rigorous demands of compliance,
+              its adaptable framework is built to solve any challenge requiring
+              autonomous entity resolution.{" "}
               <span className="font-semibold text-graphite">
-                Reduce costs by 70%
+                From search to synthesis,
               </span>{" "}
-              while strengthening regulatory confidence.
+              our AI agents deliver decision-ready intelligence in minutes,
+              bolstering institutional confidence across any regulatory landscape.
             </p>
 
             {/* CTA Buttons */}
@@ -134,22 +135,6 @@ export default function Hero() {
               }`}
               style={{ transitionDelay: "800ms" }}
             >
-              <Link href="#contact" className="btn-primary text-base py-4 px-8">
-                Request a Demo
-                <svg
-                  className="w-5 h-5"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  />
-                </svg>
-              </Link>
               <Link
                 href="#how-it-works"
                 className="btn-secondary text-base py-4 px-8"
@@ -169,7 +154,6 @@ export default function Hero() {
             >
               {[
                 { icon: "🇪🇺", text: "EU Compliant" },
-                { icon: "🔒", text: "GDPR Ready" },
                 { icon: "⚡", text: "90% Faster" },
                 { icon: "📊", text: "Audit-Ready" },
               ].map((item, index) => (
@@ -232,25 +216,30 @@ export default function Hero() {
                     </span>
                   </div>
 
-                  {/* Progress bars */}
+                  {/* Knowledge Extraction Progress Bars */}
                   <div className="space-y-4">
                     {[
-                      { label: "Identity Verification", value: 100 },
-                      { label: "Business Viability", value: 92 },
-                      { label: "Sanctions Check", value: 100 },
-                      { label: "Adverse Media", value: 85 },
+                      { label: "Entity Resolution & Link Analysis", value: 100 },
+                      { label: "Operational Viability Synthesis", value: 92 },
+                      { label: "Global Regulatory Cross-Referencing", value: 100 },
+                      { label: "Contextual Risk Sentiment Analysis", value: 85 },
+                      { label: "Automated Evidence Corroboration", value: 78 },
                     ].map((item, i) => (
-                      <div key={i} className="space-y-1">
-                        <div className="flex justify-between text-xs">
-                          <span className="text-graphite">{item.label}</span>
-                          <span className="text-slate">{item.value}%</span>
+                      <div key={i} className="space-y-2">
+                        <div className="flex justify-between items-end">
+                          <span className="text-sm font-medium text-obsidian/80">
+                            {item.label}
+                          </span>
+                          <span className="text-xs font-mono text-slate">
+                            {item.value}%
+                          </span>
                         </div>
-                        <div className="h-2 bg-mist-gray rounded-full overflow-hidden">
+                        <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
                           <div
-                            className="h-full bg-gradient-to-r from-royal-blue to-sky rounded-full transition-all duration-1000"
+                            className="h-full bg-gradient-to-r from-royal-blue to-azure transition-all duration-1000 ease-out"
                             style={{
                               width: isLoaded ? `${item.value}%` : "0%",
-                              transitionDelay: `${1200 + i * 150}ms`,
+                              transitionDelay: `${i * 150}ms`,
                             }}
                           />
                         </div>
@@ -279,32 +268,7 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Floating elements */}
-              <div className="absolute -top-6 -right-6 bg-white rounded-2xl shadow-lg shadow-sky/20 p-4 animate-float">
-                <div className="flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-green-100 flex items-center justify-center">
-                    <svg
-                      className="w-4 h-4 text-green-600"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 13l4 4L19 7"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <p className="text-xs font-semibold text-obsidian">
-                      SAR Draft Ready
-                    </p>
-                    <p className="text-[10px] text-slate">Just now</p>
-                  </div>
-                </div>
-              </div>
+
 
               <div className="absolute -bottom-4 -left-4 bg-white rounded-2xl shadow-lg shadow-sky/20 p-4 animate-float-delayed">
                 <div className="flex items-center gap-3">

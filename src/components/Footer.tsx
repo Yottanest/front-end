@@ -12,7 +12,6 @@ const footerLinks = {
   services: [
     { label: "NetReport Engine", href: "/#services" },
     { label: "Smart Docs", href: "/#services" },
-    { label: "Pricing", href: "#" },
     // { label: "Documentation", href: "#" }, // Commented out - uncomment to restore
   ],
   legal: [
@@ -33,15 +32,15 @@ const socialLinks = [
       </svg>
     ),
   },
-  {
-    label: "Twitter",
-    href: "#",
-    icon: (
-      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-      </svg>
-    ),
-  },
+  // {
+  //   label: "Twitter",
+  //   href: "#",
+  //   icon: (
+  //     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+  //       <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+  //     </svg>
+  //   ),
+  // },
   {
     label: "Email",
     href: "mailto:contact@yottanest.com",
@@ -89,8 +88,9 @@ export default function Footer() {
                 YottaNest
               </Link>
               <p className="text-white/60 mb-6 max-w-xs leading-relaxed">
-                The Agentic Compliance Engine for European Banking. Transforming
-                KYC/AML compliance with intelligent automation.
+                The Agentic Knowledge Extraction Engine for Complex Entity Resolution.
+                Transforming global due diligence through autonomous reasoning and auditable
+                intelligence.
               </p>
 
               {/* Social Links */}
