@@ -90,7 +90,7 @@ export default function Hero() {
 
             {/* Main Headline */}
             <h1
-              className={`text-4xl sm:text-5xl lg:text-[56px] font-extrabold text-obsidian leading-[1.1] tracking-[-0.02em] mb-6 transition-all duration-700 ${
+              className={`text-3xl sm:text-4xl lg:text-[40px] font-extrabold text-obsidian leading-[1.1] tracking-[-0.02em] mb-6 transition-all duration-700 ${
                 isLoaded
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-8"
